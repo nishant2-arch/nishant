@@ -1,2 +1,2 @@
 # nishant
-cpp coding
+c coding
