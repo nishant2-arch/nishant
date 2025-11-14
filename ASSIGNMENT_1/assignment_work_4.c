@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-	int units;
+	float units;
 	float bill;
 	printf("enter the units consumed: ");
-	scanf("%d",&units);
+	scanf("%f",&units);
 	if(units<=100){
 		bill=units*1.5;
 		
@@ -22,4 +22,5 @@ int main(){
 	}
 	printf("total bill= %f",bill);
 	return 0;
+
 }
